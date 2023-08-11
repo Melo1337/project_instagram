@@ -1,0 +1,31 @@
+section {
+    /* alinhar ao centro */
+    margin: 0 auto;
+    width: 935px;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.story {
+    background-color: white;
+    height: 118px;
+    width: 614px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.post {
+    margin-top: 1rem;
+    background-color: white;
+    height: 100%;
+    width: 614px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+aside {
+    margin-left: 28px;
+    width: 293px;
+    height: 500px;
+    background-color: lightblue;
+}

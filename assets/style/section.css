@@ -6,17 +6,6 @@ section {
     display: flex;
 }
 
-.story {
-    background-color: white;
-    height: 118px;
-    width: 614px;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-}
-
 .post {
     margin-top: 1rem;
     background-color: white;
@@ -24,44 +13,4 @@ section {
     width: 614px;
     border: 1px solid #dbdbdb;
     border-radius: 3px;
-}
-
-aside {
-    margin-left: 28px;
-    width: 293px;
-    height: 500px;
-    background-color:white;
-    border: 1px solid #dbdbdb;
-}
-
-.profiles {
-    height: 80%;
-    margin-left: 2%;
-    display: flex;
-    justify-content: center;
-    margin-top: 14px;
-}
-
-.profiles > .profile {
-    background-image: url("../img/stories_background.jpg");
-    background-size: cover;
-    height: 64px;
-    width: 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10px;
-}
-
-.profiles .profile img {
-    border-radius: 50%;
-    height: 56px;
-    width: 56px;
-    margin-top: 21px;
-}
-
-.profiles .profile p {
-    font-size: 12px;
-    margin-top: 12%;
 }

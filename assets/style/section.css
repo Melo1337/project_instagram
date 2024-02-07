@@ -48,16 +48,21 @@ aside {
     align-items: center;
 }
 
-.profiles .profile :nth-child(1) {
+.profiles .profile .img > :nth-child(1) {
     border-radius: 50%;
     height: 86%;
 }
 
-.profiles .profile :nth-child(2) {
+.profiles .profile .img > :nth-child(2) {
     height: 90%;
     border-radius: 50%;
     position: absolute;
 }
+
+.profile .img {
+    display: flex;
+}
+
 .profiles .profile p {
     font-size: 12px;
 }

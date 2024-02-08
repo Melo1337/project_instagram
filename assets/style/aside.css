@@ -2,7 +2,87 @@ aside {
     margin-left: 28px;
     width: 293px;
     height: 500px;
-    background-color:white;
-    border: 1px solid #dbdbdb;
 }
 
+.personal_profile {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.personal_profile img {
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+}
+
+.personal_profile > div {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personal_profile div h1 {
+    color: #262626;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.personal_profile div h2 {
+    color: #8E8E8E;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+aside div :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside div :nth-child(2) > p {
+    font-size: 12px;
+    color: #8E8E8E;
+    font-weight: 500;
+}
+
+aside div :nth-child(2) > :nth-child(2) {
+    color: #262626;
+}
+
+.sugestoes img {
+    height: 32px;
+    border-radius: 50%;
+}
+
+.sugestoes div > h1 {
+    color: #262626;
+    font-size: 14px;
+}
+
+.sugestoes div > h2 {
+    color: #8E8E8E;
+    font-size: 12px;
+}
+
+.sugestoes p {
+    color: #139EF2;
+    font-size: 12px;
+}
+
+aside div > :nth-child(4), aside div > :nth-child(5) {
+    color: #c7c7c7;
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.sugestoes {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sugestoes div {
+    margin-left: -120px;
+    display: flex;
+    flex-direction: column;
+}

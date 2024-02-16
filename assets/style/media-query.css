@@ -1,0 +1,33 @@
+@media (max-width: 900px){
+    section {
+        width: 100%;
+        justify-content: center;
+    } 
+    aside {
+        display: none;
+    }
+    .topo-container {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 612px){
+    .separador , .busca , .botoes :not(:first-child) , .story > img{
+        display: none;
+    }
+    header , .post , section > div , .post-img > img , .story {
+        width: 100%;
+    }
+    .logo {
+        width: 60%;
+    }
+    .story {
+        background-color: #fafafa;
+        border: none;
+        margin-top: -30px;
+    }
+    .post {
+        margin-top: -2px;
+    }
+}

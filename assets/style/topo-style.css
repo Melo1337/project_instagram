@@ -1,10 +1,13 @@
 .topo {
+    width: 100%;
     display: flex;
     /*alinha na vertical*/
     align-items: center;
     height: 54px;
     background-color: white;
     border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0px;
 }
 
 .topo-container {
@@ -32,10 +35,6 @@
 }
 .logo > img {
     width: 103px;
-}
-
-.busca {
-    
 }
 
 .busca > input {

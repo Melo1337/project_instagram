@@ -10,6 +10,9 @@
         margin-right: 20px;
         margin-left: 20px;
     }
+    footer {
+        display: none;
+    }
 }
 
 @media (max-width: 612px){
@@ -29,5 +32,8 @@
     }
     .post {
         margin-top: -2px;
+    }
+    footer {
+        display: flex;
     }
 }

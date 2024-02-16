@@ -1,3 +1,11 @@
+.post {
+    margin-top: 1rem;
+    background-color: white;
+    width: 614px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
 .post-header {
     display: flex;
     justify-content: space-between;

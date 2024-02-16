@@ -1,15 +1,7 @@
 section {
     /* alinhar ao centro */
-    margin: 0 auto;
+    margin-top: 70px;
     width: 935px;
-    margin-top: 2rem;
     display: flex;
-}
-
-.post {
-    margin-top: 1rem;
-    background-color: white;
-    width: 614px;
-    border: 1px solid #dbdbdb;
-    border-radius: 3px;
+    justify-content: center;
 }
